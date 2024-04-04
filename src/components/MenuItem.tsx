@@ -7,7 +7,7 @@ type MenuItemProps = {
 
 const MenuItem = ({item, addItem} : MenuItemProps) => {
   return (
-    <button className="border-2 border-teal-400 hover:bg-teal-300 w-full p-3 flex justify-between"
+    <button className="border-2 border-customNeon hover:bg-customNeon w-full p-3 flex justify-between"
     onClick={()=> addItem(item)}
     >
         <p>{item.name}</p>

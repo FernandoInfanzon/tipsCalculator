@@ -28,7 +28,7 @@ function App() {
             )
           })}
           </div>
-          <h3 className="text-4xl font-black">Drinks</h3>
+          <h3 className="text-4xl font-black mt-10">Drinks</h3>
           <div className="space-y-3 mt-10">
           {menuDrinks.map((item) => {
             return (
@@ -40,7 +40,7 @@ function App() {
             )
           })}
           </div>
-          <h2 className="text-4xl font-black">Desserts</h2>
+          <h3 className="text-4xl font-black mt-10">Desserts</h3>
           <div className="space-y-3 mt-10">
           {menuDessert.map((item) => {
             return (

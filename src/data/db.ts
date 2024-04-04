@@ -3,62 +3,113 @@ import type { MenuItem } from "../types";
 export const menuItems: MenuItem[] = [
     {
         "id": 1,
-        "name": "Small Wood-fired Pizza",
-        "price": 30
+        "name": "Waffles",
+        "price": 5
     },
     {
         "id": 2,
-        "name": "Medium Wood-fired Pizza",
-        "price": 50
+        "name": "Bread with Nutella | Jam | Peanut cream | Butter",
+        "price": 1
     },
     {
         "id": 3,
-        "name": "Slice of Lemon Pie",
-        "price": 30
+        "name": "Eggs",
+        "price": 2
     },
     {
         "id": 4,
-        "name": "Slice of Chocolate Cake",
-        "price": 30
+        "name": "Cookies with milk",
+        "price": 1.3
     },
     {
         "id": 5,
-        "name": "Orange Juice",
-        "price": 15
+        "name": "Quesadilla",
+        "price": 1.5
     },
     {
         "id": 6,
-        "name": "Large Wood-fired Pizza",
-        "price": 70
+        "name": "Cereal",
+        "price": 1.25
     },
     {
         "id": 7,
-        "name": "Rib Eye 800g",
-        "price": 100
+        "name": "French Bread",
+        "price": 2.5
     },
     {
         "id": 8,
-        "name": "Orange Juice",
-        "price": 15
+        "name": "Sincronizadas",
+        "price": 1.5
     },
     {
         "id": 9,
-        "name": "Tequila",
-        "price": 40
+        "name": "Pizza",
+        "price": 22
     },
     {
         "id": 10,
-        "name": "Slice of Cheese Pie",
-        "price": 30
+        "name": "Pop Tart",
+        "price": 1
     },
     {
         "id": 11,
-        "name": "Americano Coffee",
-        "price": 20
+        "name": "Corn Dog",
+        "price": 1.5
     },
     {
         "id": 12,
-        "name": "Cappuccino Coffee",
-        "price": 40
+        "name": "Toast Bread",
+        "price": 1
+    },
+    {
+        "id": 13,
+        "name": "Bread with beans",
+        "price": 2
+    },
+    {
+        "id": 14,
+        "name": "Pizza Pops (2pz)",
+        "price": 2
+    },
+    {
+        "id": 15,
+        "name": "Toast Bread",
+        "price": 1
     }
+]
+
+export const menuDrinks: MenuItem[] = [
+    {
+        "id": 16,
+        "name": "Water",
+        "price": 0
+    },
+    {
+        "id": 17,
+        "name": "Milk",
+        "price": 0
+    },
+    {
+        "id": 18,
+        "name": "Juice",
+        "price": 0
+    },
+    {
+        "id": 19,
+        "name": "Flavoured Water",
+        "price": 0
+    },
+    {
+        "id": 20,
+        "name": "Rose Wine",
+        "price": 0
+    }
+]
+
+export const menuDessert: MenuItem[] = [
+    {
+        "id": 21,
+        "name": "Popsicle",
+        "price": 0.5
+    },
 ]

@@ -2,7 +2,7 @@ import MenuItem from "./components/MenuItem"
 import OrderContent from "./components/OrderContent"
 import OrderTotals from "./components/OrderTotals"
 import TipPercentajeForm from "./components/TipPercentajeForm"
-import { menuItems } from "./data/db"
+import { menuItems, menuDrinks, menuDessert } from "./data/db"
 import useOrder from "./hooks/useOrder"
 
 function App() {
@@ -19,6 +19,30 @@ function App() {
           <h2 className="text-4xl font-black">Menu</h2>
           <div className="space-y-3 mt-10">
           {menuItems.map((item) => {
+            return (
+              <MenuItem 
+                key={item.id} 
+                item={item}
+                addItem={addItem}
+                />
+            )
+          })}
+          </div>
+          <h3 className="text-4xl font-black">Drinks</h3>
+          <div className="space-y-3 mt-10">
+          {menuDrinks.map((item) => {
+            return (
+              <MenuItem 
+                key={item.id} 
+                item={item}
+                addItem={addItem}
+                />
+            )
+          })}
+          </div>
+          <h2 className="text-4xl font-black">Desserts</h2>
+          <div className="space-y-3 mt-10">
+          {menuDessert.map((item) => {
             return (
               <MenuItem 
                 key={item.id} 
